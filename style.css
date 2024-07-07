@@ -60,6 +60,10 @@ header {
 .nav-item a:hover {
   color: #4d2323;
 }
+.nav-item a:focus,
+.nav-item a:active {
+  outline: none; /* Remove focus outline if it's causing unwanted space */
+}
 
 ul {
   list-style: none;
